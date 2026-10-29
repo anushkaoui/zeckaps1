@@ -1,0 +1,41 @@
+{
+  "winner": "CAMS",
+  "current_price_inr": 697.0,
+  "relative_target_inr": 830.7698491015309,
+  "dcf_target_inr": 712.1376170209005,
+  "blended_target_raw_inr": 801.1117910813733,
+  "official_target_inr": 800,
+  "price_upside_pct": 14.777618364418931,
+  "total_return_pct": 16.56761836441893,
+  "expected_total_return_pct": 15.239332465019286,
+  "bear_target_inr": 532.1962003032231,
+  "bull_target_inr": 969.2314906184528,
+  "dcf": {
+    "wacc_pct": 10.0,
+    "terminal_growth_pct": 6.0,
+    "pv_explicit_fcff_cr": 4863.10257695871,
+    "terminal_value_cr": 30881.494773562157,
+    "pv_terminal_cr": 11906.153077500037,
+    "enterprise_value_cr": 16769.25565445875,
+    "net_cash_cr": 906.0,
+    "equity_value_cr": 17675.25565445875,
+    "shares_cr": 24.82,
+    "dcf_value_per_share": 712.1376170209005,
+    "terminal_value_share_of_ev_pct": 70.99989005376234,
+    "implied_pe_fy28": 28.287667621911545,
+    "eps_fy28": 25.174843912167603,
+    "current_price_inr": 697.0,
+    "upside_vs_current_pct": 2.1718245367145617
+  },
+  "cost_of_capital": {
+    "risk_free_pct": 6.6000000000000005,
+    "equity_risk_premium_pct": 4.5,
+    "beta": 0.8,
+    "cost_of_equity_pct": 10.200000000000001,
+    "after_tax_cost_of_debt_pct": 6.0,
+    "wacc_pct": 10.074,
+    "terminal_growth_pct": 6.0
+  },
+  "decision_winner": "CAMS",
+  "decision_winner_score": 4.2
+}

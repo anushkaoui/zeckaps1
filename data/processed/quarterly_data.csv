@@ -1,0 +1,5 @@
+company,ticker,period,period_end,revenue,ebitda,ebitda_margin_pct,pat,eps,notes,source_id
+BSE Limited,BSE,Q1 FY27,2026-06-30,1566,1046,66.8,873,21.43,Consolidated; investor presentation shows Rs 1,706.8 cr revenue and Rs 1,186.7 cr EBITDA on a different definition; reconcile before use,S01
+Central Depository Services (India) Limited,CDSL,Q1 FY27,2026-06-30,293,138,47.1,118,5.62,Consolidated; annual issuer income remains the largest revenue block,S02
+Computer Age Management Services Limited,CAMS,Q1 FY27,2026-06-30,395,182,46.1,127.10,5.16,Consolidated; AUM Rs 56 lakh crore; MF RTA share 67.2%; non-MF revenue 14.9% of total,S03
+KFin Technologies Limited,KFINTECH,Q2 FY27,2026-09-30,401.8,161.0,40.1,100.3,5.78,Consolidated; H1 FY27 revenue Rs 758.3 cr and PAT Rs 175.6 cr,S04

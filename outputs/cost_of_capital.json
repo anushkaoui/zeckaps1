@@ -1,0 +1,9 @@
+{
+  "risk_free_pct": 6.6000000000000005,
+  "equity_risk_premium_pct": 4.5,
+  "beta": 0.8,
+  "cost_of_equity_pct": 10.200000000000001,
+  "after_tax_cost_of_debt_pct": 6.0,
+  "wacc_pct": 10.074,
+  "terminal_growth_pct": 6.0
+}

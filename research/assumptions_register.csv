@@ -1,0 +1,47 @@
+assumption_id,category,assumption,value,unit,basis,source_id,status
+A01,Market,Price date,2026-10-29,date,Closing price on cut-off,S01-S04,Approved
+A02,Market,BSE price,3502,INR/share,29-Oct-2026 close,S01,Approved
+A03,Market,CDSL price,1282,INR/share,29-Oct-2026 close,S02,Approved
+A04,Market,CAMS price,697,INR/share,29-Oct-2026 close,S03,Approved
+A05,Market,KFin price,860,INR/share,29-Oct-2026 close,S04,Approved
+A06,Market,BSE net cash,2500,INR crore,Attributable liquid net cash after clearing/SGF haircut,S01,Approved
+A07,Market,CDSL net cash,1698,INR crore,Net cash after regulatory/operating haircut,S02,Approved
+A08,Market,CAMS net cash,906,INR crore,Q1 FY27 cash 971.45 less FY26 debt 64,S03/S10,Approved
+A09,Market,KFin net cash,445,INR crore,Net cash after client/regulatory haircut,S04,Approved
+A10,Forecast,BSE revenue growth FY27-FY31,"20%, 14%, 12%, 10%, 9%",% YoY,Derivatives momentum fading; Q1 FY27 +30%,S01/S05,Approved
+A11,Forecast,CDSL revenue growth FY27-FY31,"9%, 11%, 11%, 10%, 10%",% YoY,Demat/issuer growth normalising,S02/S08,Approved
+A12,Forecast,CAMS revenue growth FY27-FY31,"13%, 13%, 12%, 11%, 10%",% YoY,Management guidance 13%; AUM/non-MF blend,S03/S10,Approved
+A13,Forecast,KFin revenue growth FY27-FY31,"20%, 16%, 14%, 13%, 12%",% YoY,Guidance 18-20%; international/issuer growth,S04/S09,Approved
+A14,Forecast,CAMS EBITDA margin FY27-FY31,"46.3%, 46.5%, 46.7%, 46.8%, 47.0%",% of revenue,Q1 FY27 46.1%; operating leverage,S03,Approved
+A15,Forecast,CAMS D&A,6.2,% of revenue,FY26 6.5%; lease/intangible amortisation,S03,Approved
+A16,Forecast,CAMS capex,6.5,% of revenue,FY26 capex 9.2%; normalised,S03,Approved
+A17,Forecast,CAMS working capital,-5.0,% of incremental revenue,Linked three-statement NWC implies ~-5.1%; simplified FCF aligned,S03,Approved
+A18,Forecast,CAMS dividend payout,65,% of PAT,FY26 payout,S03,Approved
+A19,Forecast,Effective tax rate,25,% of PBT,FY26 effective rate,S03,Approved
+A20,Valuation,Risk-free rate,6.6,%,India 10-year G-sec proxy,Market convention,Approved
+A21,Valuation,Equity risk premium,4.5,%,Low vs 5.5-6.5%; valuation-friendly,Market convention,Approved
+A22,Valuation,Beta,0.80,x,Low-cyclicality RTA,S03,Approved
+A23,Valuation,WACC,10.0,%,Formula gives 10.07%; rounded,Model,Approved
+A24,Valuation,Terminal growth,6.0,%,Below nominal GDP; mature MF penetration,Model,Approved
+A25,Valuation,Fade growth FY32-FY36,"9%, 8%, 7%, 6.5%, 6%",% YoY,Gradual deceleration,Model,Approved
+A26,Valuation,Relative target P/E,33,x FY28E EPS,Discount to BSE/CDSL; premium to market,Model,Approved
+A27,Valuation,Blend weight relative,75,%,12-month target primarily forward multiple,Model,Approved
+A28,Scenarios,Bull probability,25,%,Judgemental,Model,Approved
+A29,Scenarios,Base probability,50,%,Judgemental,Model,Approved
+A30,Scenarios,Bear probability,25,%,Judgemental,Model,Approved
+A31,Shocks,Derivatives turnover decline,-30,%,Mandatory stress,Requirement,Approved
+A32,Shocks,Equity market drawdown,-20,%,Mandatory stress,Requirement,Approved
+A33,Shocks,BSE F&O revenue elasticity,0.70,x,Transaction-charge concentration,S01/S05,Approved
+A34,Shocks,CAMS equity revenue elasticity,0.65,x,AUM-linked revenue,S03,Approved
+A35,Decision,Moat weight,20,%,Mandate,Requirement,Approved
+A36,Decision,Growth weight,20,%,Mandate,Requirement,Approved
+A37,Decision,Financial quality weight,15,%,Mandate,Requirement,Approved
+A38,Decision,Valuation weight,25,%,Mandate,Requirement,Approved
+A39,Decision,Regulatory/execution risk weight,20,%,Mandate,Requirement,Approved
+A40,Portfolio,Sleeve size,500,INR crore,Mandate,Requirement,Approved
+A41,Portfolio,Target weight,4.0,% of sleeve,Moderate conviction; 5% cap,Model,Approved
+A42,Portfolio,Maximum weight,5.0,% of sleeve,Hard cap,Model,Approved
+A43,Portfolio,Tranches,"50%, 25%, 25%",% of position,Staged entry,Model,Approved
+A44,Liquidity,ADV assumption,50,INR crore/day,Planning assumption; verify before trading,Open,Open
+A45,Liquidity,Participation cap,15,% of ADV,Execution discipline,Model,Approved
+A46,Forecast,BSE other income FY27-FY31,"24, 25, 26, 27, 28",INR crore,Anchored to normalized FY26 line; 5% growth; BSE release total OI was 314,S01,Approved

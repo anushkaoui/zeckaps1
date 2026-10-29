@@ -1,0 +1,175 @@
+meta:
+  cutoff_date: "2026-10-29"
+  currency: "INR"
+  flow_unit: "crore"
+  per_share_unit: "INR"
+  target_horizon_months: 12
+  base_fiscal_year: "FY26"
+  target_fiscal_year: "FY28"
+
+valuation:
+  risk_free: 0.066
+  equity_risk_premium: 0.045
+  beta: 0.80
+  cost_of_debt: 0.08
+  tax_rate: 0.25
+  debt_weight: 0.03
+  wacc: 0.100
+  terminal_growth: 0.060
+  forecast_years: 5
+  dcf_years: 10
+  fade_growth: [0.090, 0.080, 0.070, 0.065, 0.060]
+  fade_margin: [0.472, 0.474, 0.475, 0.475, 0.475]
+  fade_dep_pct_revenue: 0.062
+  fade_capex_pct_revenue: 0.065
+  fade_nwc_pct_revenue: -0.050
+  blend_weight_relative: 0.75
+
+companies:
+  BSE:
+    name: "BSE Limited"
+    ticker: "BSE"
+    revenue_growth: [0.200, 0.140, 0.120, 0.100, 0.090]
+    ebitda_margin: [0.675, 0.670, 0.665, 0.660, 0.655]
+    dep_pct_revenue: 0.030
+    other_income: [24, 25, 26, 27, 28]
+    interest: [34, 30, 25, 20, 15]
+    tax_rate: 0.25
+    capex_pct_revenue: 0.035
+    nwc_pct_incremental_revenue: -0.020
+    dividend_payout: 0.20
+    base_target_pe: 42
+    shock_fno_revenue_elasticity: 0.70
+    shock_equity_revenue_elasticity: 0.25
+    shock_pat_elasticity: 1.35
+  CDSL:
+    name: "Central Depository Services (India) Limited"
+    ticker: "CDSL"
+    revenue_growth: [0.090, 0.110, 0.110, 0.100, 0.100]
+    ebitda_margin: [0.500, 0.505, 0.510, 0.510, 0.510]
+    dep_pct_revenue: 0.060
+    other_income: [100, 105, 110, 115, 120]
+    interest: [0, 0, 0, 0, 0]
+    tax_rate: 0.25
+    capex_pct_revenue: 0.080
+    nwc_pct_incremental_revenue: -0.010
+    dividend_payout: 0.55
+    base_target_pe: 46
+    shock_fno_revenue_elasticity: 0.10
+    shock_equity_revenue_elasticity: 0.30
+    shock_pat_elasticity: 1.25
+  CAMS:
+    name: "Computer Age Management Services Limited"
+    ticker: "CAMS"
+    revenue_growth: [0.130, 0.130, 0.120, 0.110, 0.100]
+    ebitda_margin: [0.463, 0.465, 0.467, 0.468, 0.470]
+    dep_pct_revenue: 0.062
+    other_income: [57, 59, 62, 64, 67]
+    interest: [6, 6, 6, 6, 6]
+    tax_rate: 0.25
+    capex_pct_revenue: 0.065
+    nwc_pct_incremental_revenue: -0.050
+    dividend_payout: 0.65
+    base_target_pe: 33
+    shock_fno_revenue_elasticity: 0.02
+    shock_equity_revenue_elasticity: 0.65
+    shock_pat_elasticity: 1.10
+  KFINTECH:
+    name: "KFin Technologies Limited"
+    ticker: "KFINTECH"
+    revenue_growth: [0.200, 0.160, 0.140, 0.130, 0.120]
+    ebitda_margin: [0.405, 0.410, 0.415, 0.417, 0.420]
+    dep_pct_revenue: 0.065
+    other_income: [32, 33, 34, 35, 36]
+    interest: [6, 5, 5, 4, 4]
+    tax_rate: 0.25
+    capex_pct_revenue: 0.070
+    nwc_pct_incremental_revenue: -0.010
+    dividend_payout: 0.45
+    base_target_pe: 33
+    shock_fno_revenue_elasticity: 0.03
+    shock_equity_revenue_elasticity: 0.20
+    shock_pat_elasticity: 1.15
+
+scenarios:
+  bull:
+    probability: 0.25
+    eps_multiplier:
+      BSE: 1.13
+      CDSL: 1.18
+      CAMS: 1.10
+      KFINTECH: 1.13
+    target_pe:
+      BSE: 50
+      CDSL: 55
+      CAMS: 35
+      KFINTECH: 42
+  base:
+    probability: 0.50
+    eps_multiplier:
+      BSE: 1.00
+      CDSL: 1.00
+      CAMS: 1.00
+      KFINTECH: 1.00
+    target_pe:
+      BSE: 42
+      CDSL: 46
+      CAMS: 33
+      KFINTECH: 33
+  bear:
+    probability: 0.25
+    eps_multiplier:
+      BSE: 0.62
+      CDSL: 0.78
+      CAMS: 0.755
+      KFINTECH: 0.70
+    target_pe:
+      BSE: 33
+      CDSL: 35
+      CAMS: 28
+      KFINTECH: 27
+
+decision_matrix:
+  weights:
+    moat_durability: 0.20
+    growth_visibility: 0.20
+    financial_quality: 0.15
+    valuation: 0.25
+    regulatory_risk: 0.20
+  scores:
+    BSE:
+      moat_durability: 4.0
+      growth_visibility: 4.5
+      financial_quality: 4.5
+      valuation: 2.5
+      regulatory_risk: 1.5
+    CDSL:
+      moat_durability: 4.5
+      growth_visibility: 2.5
+      financial_quality: 4.0
+      valuation: 1.5
+      regulatory_risk: 3.0
+    CAMS:
+      moat_durability: 4.5
+      growth_visibility: 3.5
+      financial_quality: 4.5
+      valuation: 4.5
+      regulatory_risk: 4.0
+    KFINTECH:
+      moat_durability: 3.5
+      growth_visibility: 3.5
+      financial_quality: 3.0
+      valuation: 3.0
+      regulatory_risk: 3.0
+
+shocks:
+  fno_turnover_decline: -0.30
+  equity_drawdown: -0.20
+
+portfolio:
+  capital_cr: 500
+  target_weight: 0.04
+  max_weight: 0.05
+  tranches: [0.50, 0.25, 0.25]
+  adv_assumption_cr: 50
+  participation_cap: 0.15

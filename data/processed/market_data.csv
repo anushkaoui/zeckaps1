@@ -1,0 +1,5 @@
+company,ticker,price_date,price_inr,shares_cr,market_cap_cr,net_cash_cr,net_debt_cr,ev_cr,dividend_yield_pct,ttm_eps,face_value_inr,source_id,net_cash_note
+BSE Limited,BSE,2026-10-29,3502,40.79,142846,2500,0,140346,0.29,69.18,2,S01,Attributable liquid net cash after haircut for clearing/SGF balances
+Central Depository Services (India) Limited,CDSL,2026-10-29,1282,20.90,26794,1698,0,25096,1.00,22.49,10,S02,Net cash after haircut for regulatory/operating balances
+Computer Age Management Services Limited,CAMS,2026-10-29,697,24.82,17300,906,0,16394,1.79,19.75,2,S03,Q1 FY27 cash Rs 971.45 cr less Rs 64 cr debt; FY26 cash Rs 854.45 cr; Rs 446 cr investments excluded; issued shares 24.82 cr
+KFin Technologies Limited,KFINTECH,2026-10-29,860,17.30,14878,445,0,14433,1.39,20.17,10,S04,Net cash after haircut for client/regulatory balances

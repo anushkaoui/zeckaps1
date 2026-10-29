@@ -1,0 +1,5 @@
+ticker,score_moat_durability,score_growth_visibility,score_financial_quality,score_valuation,score_regulatory_risk,weighted_score,expected_total_return_pct,bear_downside_pct,base_target_price,rank
+CAMS,4.5,3.5,4.5,4.5,4.0,4.2,15.239332465019286,-23.644734533253498,830.7698491015309,1
+BSE,4.0,4.5,4.5,2.5,1.5,3.3,-5.03391884607945,-51.86201241527797,3460.570755577349,2
+KFINTECH,3.5,3.5,3.0,3.0,3.0,3.2,10.280115715822014,-37.80528295469823,933.9079734104046,3
+CDSL,4.5,2.5,4.0,1.5,3.0,2.975,-6.00117732495481,-44.867147469517185,1190.9503953947374,4

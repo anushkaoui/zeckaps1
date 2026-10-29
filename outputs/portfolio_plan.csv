@@ -1,0 +1,6 @@
+ticker,line,weight_of_position,target_value_cr,price_inr,shares,actual_value_cr,trigger
+CAMS,tranche_1,0.5,10.0,697.0,143472,9.9999984,Initiation at current price; valuation gate passes
+CAMS,tranche_2,0.25,5.0,697.0,71736,4.9999992,Q2 FY27 results confirm revenue growth >=10% and EBITDA margin >=45%
+CAMS,tranche_3,0.25,5.0,697.0,71736,4.9999992,Price <= ₹725 or FY28 EPS visibility improves; whichever first
+CAMS,total,1.0,20.0,697.0,286944,19.9999968,Build over 3 trading days at <=15% of assumed ₹50 cr ADV
+CAMS,risk_limits,0.05,25.0,697.0,358680,24.999996,Hard cap 5% of sleeve; no leverage; review if position exceeds 5.5% on mark-to-market
